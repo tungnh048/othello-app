@@ -1,0 +1,2 @@
+Note when compile:
+- For some reason, javac considers JComboBox as unsafe when initialize with this constructor: new JComboBox(E[]) where E is an array of Objects. So in order to run my project in cmd I use this command "javac -Xlint:unchecked othello\*.java"
